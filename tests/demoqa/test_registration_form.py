@@ -5,7 +5,7 @@ from selene import browser
 
 @allure.title("Successful fill form")
 def test_successful(setup_browser):
-    browser = setup_browser
+    # browser = setup_browser
     first_name = "Alex"
     last_name = "Egorov"
 
