@@ -1,5 +1,6 @@
 import allure
 from selene import have, by
+from selene import browser
 
 
 @allure.title("Successful fill form")
